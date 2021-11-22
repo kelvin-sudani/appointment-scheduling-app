@@ -22,8 +22,9 @@ You will also see any lint errors in the console.
 - You can also delete an event by clicking on it. First you will be prompted for an confirmation.
 
 ## Notes :
-
+### App will use the local time.It will show you all the available slots in your current timezone.
 - Weekly availability for each doctor is provided in terms of week days rather than a specific date.
 - I chose to use a calender component to handle appointment scheduling. However, it can be done in a tabular form as well.
 - These availability will act as an input constraint to the calender component to prevent a user from creating an event outside of the availability scope.
+- 
 - sessionStorage is used for the sake of state persistance since there is not backend.
