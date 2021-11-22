@@ -20,5 +20,5 @@ export const getDateTime = (data) => {
       minute: data.minutes ?? 0,
     },
     { zone: data.zone }
-  ).toISO()
+  ).toISO({ includeOffset: false })
 }
